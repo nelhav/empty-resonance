@@ -64,7 +64,7 @@ http
       res.end();
     }
   })
-  .listen(3000);
+  .listen(process.env.PORT);
 
 client.once(Events.ClientReady, (c) => {
   console.log("Bot準備完了～");
