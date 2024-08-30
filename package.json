@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@fastify/formbody": "7.4.0",
+    "@fastify/static": "7.0.4",
+    "@fastify/view": "9.1.0",
+    "discord.js": "14.15.3",
+    "fastify": "4.28.1",
+    "handlebars": "4.7.8",
+    "querystring": "0.2.1"
+  }
+}
